@@ -2,7 +2,7 @@ import { theme, DefaultTheme } from '@chakra-ui/core'
 
 const customTheme: DefaultTheme = {
   ...theme,
-  /* fonts: {
+  fonts: {
     body: 'Roboto, system-ui, sans-serif',
     heading: 'Roboto, system-ui, sans-serif',
     mono: 'Menlo, monospace'
@@ -31,7 +31,7 @@ const customTheme: DefaultTheme = {
       700: '#202024',
       800: '#121214'
     },
-  }, */
+  },
 }
 
 export default customTheme;
